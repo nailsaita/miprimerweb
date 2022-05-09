@@ -1,5 +1,5 @@
 body {
-  background-image: url("../assets/img/fondo2.jpg");
+  background-image: url("../assets/img/fondo.png");
   background-size: cover;
   background-attachment: fixed; }
 
@@ -84,8 +84,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: opacity .2s,
- visibility .2s;
+  transition: opacity .2s, visibility .2s;
   z-index: 5;
   margin-bottom: 0; }
 
@@ -120,12 +119,12 @@ a:hover {
   padding: 20px; }
 
 .fondo {
-  background-image: url("../assets/img/fondo.jpg");
+  background-image: url("../assets/img/fondo.png");
   background-size: cover;
   background-attachment: fixed; }
 
 footer {
-  background-color: pink;
+  background-color: #b2cea8;
   padding: 50px 0px; }
 
 /* vista mobile */
