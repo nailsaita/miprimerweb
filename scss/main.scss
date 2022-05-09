@@ -1,0 +1,177 @@
+$colortexto:#5E5689;
+$negro:black;
+
+body{
+    background-image:url("../assets/img/fondo.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{overflow:hidden;}
+
+.logoHeader{width:180px;}
+
+.logoInicio{
+    width:100%;
+    -webkit-box-shadow: -18px 18px 0px -1px $colortexto; 
+    box-shadow: -18px 18px 0px -1px $colortexto;
+}
+
+.nav-item{
+    font-weight: 600 !important;
+}
+
+
+h1{
+    color: $negro;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+h2{
+    color: $negro;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h4{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+nav{
+    color: $negro;
+    font-family: 'Open Sans', sans-serif;
+    transition: all .3s;
+}
+
+nav ul li{transition: all .3s;}
+nav ul li:hover {
+    transform: scale(1.2);
+}
+
+a{transition: all .3s;}
+a:hover {color:rgb(178,206,168) !important;}
+
+.cuadro{
+    -webkit-box-shadow: 4px -4px 7px -1px rgba(94,86,137,0.51); 
+    box-shadow: 4px -4px 7px -1px rgba(94,86,137,0.51);
+    background-color: $colortexto;
+}
+
+.imagenInicio{
+    width: 180px;
+    border-radius: 50%;
+    border: 2px solid $colortexto;
+}
+
+.owl-carousel .owl-item img {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.imgWrap {
+    position: relative;
+ }
+ 
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+  background: rgba(245,245,239,0.5);
+  color:$negro;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .2s,
+  visibility .2s;
+  z-index: 5;
+  margin-bottom: 0;
+ }
+ 
+.imgWrap:hover .imgDescription {
+   opacity: 1;
+ }
+.imagenRecurso {
+    width: 360px;
+    border: 2px solid $colortexto;
+ }
+
+.textoPrincipal{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    line-height: 1.8;
+    padding: 60px 20px;
+}
+
+.textoPrincipalConFondo{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    line-height: 1.8;
+    padding: 100px 100px;
+}
+
+.logoFooter{
+    width: 30px;
+    transition: all .3s;
+}
+
+.logoFooter:hover {
+    transform: scale(1.4);
+ }
+
+.paddingBS{
+     padding: 20px;
+ }
+
+
+.fondo{
+    background-image:url("../assets/img/fondo.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: rgb(178,206,168);
+    padding: 50px 0px;
+}
+
+/* vista mobile */
+
+@media only screen and (max-width: 767px){
+    .textoPrincipalConFondo{
+        color:white;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        line-height: 1.8;
+        padding: 30px 20px;
+    }
+
+    h2{
+        color: $negro;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 20px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .logoInicio{
+        max-width: 300px;
+    }
+
+    .alineacion{
+        display: flex;
+        justify-content: center;
+    }
+}
